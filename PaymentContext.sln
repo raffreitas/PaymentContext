@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentContext.Domain", "PaymentContext.Domain\PaymentContext.Domain.csproj", "{AD7DA700-F95F-49AB-9A44-8893A1B8273F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentContext.Shared", "PaymentContext.Shared\PaymentContext.Shared.csproj", "{06B1442F-9EF5-4976-B331-C99094ECE833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentContext.Tests", "PaymentContext.Tests\PaymentContext.Tests.csproj", "{533DF439-EA12-4D58-885E-02775BCB5828}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD7DA700-F95F-49AB-9A44-8893A1B8273F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7DA700-F95F-49AB-9A44-8893A1B8273F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7DA700-F95F-49AB-9A44-8893A1B8273F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7DA700-F95F-49AB-9A44-8893A1B8273F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B1442F-9EF5-4976-B331-C99094ECE833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B1442F-9EF5-4976-B331-C99094ECE833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B1442F-9EF5-4976-B331-C99094ECE833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B1442F-9EF5-4976-B331-C99094ECE833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{533DF439-EA12-4D58-885E-02775BCB5828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533DF439-EA12-4D58-885E-02775BCB5828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533DF439-EA12-4D58-885E-02775BCB5828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533DF439-EA12-4D58-885E-02775BCB5828}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
