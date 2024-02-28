@@ -3,7 +3,7 @@ using PaymentContext.Shared.Entities;
 
 namespace PaymentContext.Domain.Entities;
 
-public class Subscription: Entity
+public class Subscription : Entity
 {
     private IList<Payment> _payments;
     public Subscription(DateTime? expireDate)
@@ -19,7 +19,7 @@ public class Subscription: Entity
     public DateTime LastUpdateDate { get; private set; }
     public DateTime? ExpireDate { get; private set; }
     public bool Active { get; private set; }
-    public IReadOnlyCollection<Payment> Payments { get; set; }
+    public IReadOnlyCollection<Payment> Payments { get { return _payments.ToArray(); } }
 
     public void AddPayment(Payment payment)
     {
