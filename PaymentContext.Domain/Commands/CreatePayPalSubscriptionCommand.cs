@@ -1,8 +1,9 @@
 ﻿using PaymentContext.Domain.Enums;
+using PaymentContext.Shared.Commands;
 
 namespace PaymentContext.Domain.Commands;
 
-public class CreatePayPalSubscriptionCommand
+public class CreatePayPalSubscriptionCommand : ICommand
 {
     public string FirstName { get; set; } = string.Empty;
     public string LastName { get; set; } = string.Empty;
@@ -27,4 +28,9 @@ public class CreatePayPalSubscriptionCommand
     public string State { get; private set; } = string.Empty;
     public string Country { get; private set; } = string.Empty;
     public string ZipCode { get; private set; } = string.Empty;
+
+    public void Validate()
+    {
+
+    }
 }
